@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.4
+
+### Patch Changes
+
+- added subtract function
+
 ## 0.0.3
 
 ### Patch Changes
