@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.2
+
+### Patch Changes
+
+- github workflows
+
 ## 0.0.5
 
 ### Patch Changes
