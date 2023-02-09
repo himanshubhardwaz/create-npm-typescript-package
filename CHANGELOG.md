@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.7
+
+### Patch Changes
+
+- added release script
+
 ## 0.0.6
 
 ### Patch Changes
