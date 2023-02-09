@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.11
+
+### Patch Changes
+
+- try
+
 ## 0.0.10
 
 ### Patch Changes
