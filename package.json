@@ -4,7 +4,7 @@
   "repository": "https://github.com/himanshubhardwaz/npm-typescript-starter-template",
   "description": "A typescript starter template for building scalable packages",
   "license": "MIT",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

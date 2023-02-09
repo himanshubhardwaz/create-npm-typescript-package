@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.10
+
+### Patch Changes
+
+- set github token
+
 ## 0.0.9
 
 ### Patch Changes
