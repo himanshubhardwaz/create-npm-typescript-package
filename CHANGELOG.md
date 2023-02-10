@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.0.15
+
+### Patch Changes
+
+- updated readme
+
 ## 0.0.14
 
 ### Patch Changes
