@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.1.3
+
+### Patch Changes
+
+- rename again
+
 ## 0.1.2
 
 ### Patch Changes

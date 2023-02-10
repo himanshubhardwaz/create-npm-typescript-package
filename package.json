@@ -1,18 +1,18 @@
 {
-  "name": "create-npm-package",
+  "name": "create-npm-typescript-package",
   "author": "himanshubhardwaz",
-  "repository": "https://github.com/himanshubhardwaz/create-npm-package",
+  "repository": "https://github.com/himanshubhardwaz/create-npm-typescript-package",
   "description": "A typescript starter template for building scalable packages",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "bin": {
-    "create-npm-package": "bin/index.js"
+    "create-npm-typescript-package": "bin/index.js"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "create-npm-package": "node bin/index.js",
+    "create-npm-typescript-package": "node bin/index.js",
     "release": "changeset publish"
   },
   "devDependencies": {
