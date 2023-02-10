@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.1.1
+
+### Patch Changes
+
+- fixed file urls -> raw
+
 ## 0.1.0
 
 ### Minor Changes

@@ -5,9 +5,11 @@
 const fs = require('fs-extra')
 const shell = require('shelljs');
 
-const packageJsonUrl = 'https://github.com/himanshubhardwaz/npm-typescript-starter-template/blob/main/template/src/package.json';
-const indexTsUrl = 'https://github.com/himanshubhardwaz/npm-typescript-starter-template/blob/main/template/src/index.ts';
-const releaseYamlUrl = 'https://github.com/himanshubhardwaz/npm-typescript-starter-template/blob/main/template/workflows/release.yml';
+const packageJsonUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/package.json';
+const indexTsUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/src/index.ts';
+const releaseYamlUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/workflows/release.yml';
+const readMeUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/readme.md'
+const gitIgnoreUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/.gitignore'
 
 const args = process.argv.slice(1);
 
@@ -38,5 +40,9 @@ shell.exec(`curl -o release.yml ${releaseYamlUrl}`)
 
 shell.cd('..')
 
-shell.exex('npm install')
-shell.exex('npm changeset init')
+shell.exec(`curl -o readme.md ${readMeUrl}`)
+shell.exec(`curl -o .gitignore ${gitIgnoreUrl}`)
+
+shell.exec('git init')
+shell.exec('npm install')
+shell.exec('npm changeset init')
