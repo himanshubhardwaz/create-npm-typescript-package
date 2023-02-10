@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.1.0
+
+### Minor Changes
+
+- npx cli init
+
 ## 0.0.15
 
 ### Patch Changes
