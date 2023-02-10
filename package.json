@@ -1,10 +1,10 @@
 {
-  "name": "npm-typescript-starter-template",
+  "name": "create-npm-package",
   "author": "himanshubhardwaz",
-  "repository": "https://github.com/himanshubhardwaz/npm-typescript-starter-template",
+  "repository": "https://github.com/himanshubhardwaz/create-npm-package",
   "description": "A typescript starter template for building scalable packages",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bin": {
     "create-npm-package": "bin/index.js"
   },
