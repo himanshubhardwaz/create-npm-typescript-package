@@ -1,5 +1,11 @@
 # npm-package-starter-template
 
+## 0.1.4
+
+### Patch Changes
+
+- fixed package json url
+
 ## 0.1.3
 
 ### Patch Changes

@@ -4,7 +4,7 @@
   "repository": "https://github.com/himanshubhardwaz/create-npm-typescript-package",
   "description": "A typescript starter template for building scalable packages",
   "license": "MIT",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "bin": {
     "create-npm-typescript-package": "bin/index.js"
   },

@@ -5,7 +5,7 @@
 const fs = require('fs-extra')
 const shell = require('shelljs');
 
-const packageJsonUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/package.json';
+const packageJsonUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/create-npm-typescript-package/main/template/package.json';
 const indexTsUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/src/index.ts';
 const releaseYamlUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/workflows/release.yml';
 const readMeUrl = 'https://raw.githubusercontent.com/himanshubhardwaz/npm-typescript-starter-template/main/template/readme.md'
