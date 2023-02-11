@@ -1,10 +1,19 @@
 {
   "name": "create-npm-typescript-package",
+  "keywords": [
+    "npm",
+    "npm package template",
+    "typescript package template",
+    "typescript package",
+    "node package",
+    "node package template",
+    "node package typescript template"
+  ],
   "author": "himanshubhardwaz",
   "repository": "https://github.com/himanshubhardwaz/create-npm-typescript-package",
   "description": "A typescript starter template for building scalable packages",
   "license": "MIT",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "bin": {
     "create-npm-typescript-package": "bin/index.js"
   },
